@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Weekdays Translator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main_heading">Weekdays Translator</h1>
+        <p class="subheading">Translate days name into numbers and vice versa</p>
+        <div class="row">
+            <div class="row_left">
+                <h3>Number to Name</h3>
+                <label>Select Day Number:</label>
+                <select id="weekdays_number">
+                    <option value="">Day Number...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+                <br/><br/>
+                <button type="button" class="num_btn" onclick="num_to_name()">Check</button>
+                <button type="button" class="clr_btn" value="Clean" onClick="Clean1()">Clear</button>
+                <div class="result_area"><p class="result_text"></p></div>
+            </div>
+            <div class="row_right">
+                <h3>Name to Number</h3>
+                <label>Select Day Name:</label>
+                <select id="weekdays_name">
+                    <option value="">Day Name...</option>
+                    <option value="monday">Monday</option>
+                    <option value="2">Tuesday</option>
+                    <option value="3">Wednesday</option>
+                    <option value="4">Thursday</option>
+                    <option value="5">Friday</option>
+                    <option value="6">Saturday</option>
+                    <option value="7">Sunday</option>
+                </select>
+                <br/><br/>
+                <button type="button" class="num_btn" onclick="name_to_num()">Check</button>
+                <button type="button" class="clr_btn" value="Clean" onClick="Clean2()">Clear</button>
+                <div class="result_area"><p class="result_text2"></p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

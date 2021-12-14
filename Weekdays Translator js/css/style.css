@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ebebeb;
+}
+
+.main_heading{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.subheading{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #6b6b6b;
+}
+
+.row{
+    display: flex;
+    background-color: #ffffff;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    align-items: center;
+    margin-top: 8rem;
+    box-shadow: 2.7px 5.4px 7.5px 4px #bebebe;
+    border-radius: 0.4rem;
+}
+
+.row_left{
+    border-right: 1px solid #39aa39;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+
+.row_right{
+    border-left: 1px solid #39aa39;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+
+.row_left h3, .row_right h3{
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 5rem;
+}
+
+select{
+    width: 10rem;
+    height: 1.7rem;
+}
+
+.num_btn{
+    width: 6rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: #39aa39;
+    color: white;
+    border-radius: 0.3rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.num_btn:hover{
+    background-color: #267526;
+}
+
+.clr_btn{
+    width: 6rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: #c23838;
+    color: white;
+    border-radius: 0.3rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.clr_btn:hover{
+    background-color: #961c1c;
+}
+
+.result_area{
+    width: 80%;
+    height: 90px;
+    background-color: #bed7e8;
+    border: 1px solid #23849d;
+    margin-top: 25px;
+    border-radius: 0.3rem;
+}
+
+.result_text{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.result_text2{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
